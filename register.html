@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="form.css" rel="stylesheet" type="text/css"/>
+    <link href="setting.css" rel="stylesheet" type="text/css"/>
+    <link href="menu_setting.css" rel="stylesheet" type="text/css"/>
+
+
+    <nav class="site">
+      <div class="site-content">
+          <ul id="menu">
+              <li><strong class="logo"><a href="index.html" >MH+</a></strong></li>
+              <li><a href="index.html" class="item">Trang chủ</a></li>
+              <li><a href="#Information" class="item">Thông tin</a></li>
+              <li><a href="#Model" class="item">Mô hình</a></li>
+              <li><a href="Cart.html" class="item">Giỏ hàng</a></li>    
+              <li><div class="dropdown">
+                  <div class="dropbtn">Cá nhân</div>
+                  <div class="dropdown-content">
+                    <a href="register.html">Đăng Ký</a>
+                    <a href="login.html">Đăng Nhập</a>
+                  </div>
+                  </div>
+              </li>    
+          </ul>
+      </div>
+    </nav>
+
+    <form action="action_page.php">
+        <div class="container">
+          <h1>Đăng Ký</h1>
+          <p>Vui lòng điền vào biểu mẫu này để tạo tài khoản.</p>
+          <hr>
+      
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Nhập Email của bạn." name="email" id="email" required>
+      
+          <label for="psw"><b>Mật khẩu</b></label>
+          <input type="password" placeholder="Nhập mật khẩu của bạn." name="psw" id="psw" required>
+      
+          <label for="psw-repeat"><b>Nhập lại mật khẩu</b></label>
+          <input type="password" placeholder="Nhập lại mật khẩu." name="psw-repeat" id="psw-repeat" required>
+          <hr>
+      
+          <p>Bằng cách tạo tài khoản, bạn đồng ý với<a href="#"> Điều khoản & Quyền riêng tư</a> của chúng tôi.</p>
+          <button type="submit" class="registerbtn">Đăng ký</button>
+        </div>
+      
+        <div class="container signin">
+          <p>Nếu bạn đã có tài khoản?<a href="login.html">Đăng nhập</a>.</p>
+        </div>
+      </form>
+</html>

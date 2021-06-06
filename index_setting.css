@@ -1,0 +1,117 @@
+.tieude{
+    background-image: url(wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 50%;
+    border: 1px solid purple;
+    width: 100%;
+    height: 120px;
+}
+
+.main{
+    border: 1px solid #000000;
+    width: 100%;
+    height: 550px; 
+}
+
+.footer{
+    height: 50px; 
+    width: 100%;
+}
+
+.thongtin{
+    text-align: center;
+}
+
+h2.introduce{
+    line-height: 8px;
+    color:lightgreen ;
+}
+
+h1.nametitle{
+    line-height: 30px;
+    color: #e63900;
+}
+
+/* main */
+.main ul{
+   list-style-type: disc;
+   display: block;
+}
+
+.main ul .item{
+    float: left;
+    list-style: none;
+    border: solid white;
+    /* width: 24.68%; */
+    /* width: 24.62%; */
+    width: 375px;
+    /* height: 59.5vh; */
+    height: 545px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+img.Yamato{
+    width: 100%;
+    height: 450px;
+}
+
+.yamato-introduce{
+    margin-top: 0px;
+    line-height: 15px;
+}
+
+.yamato-price{
+    color: red;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.KHM{
+    width: 100%;
+    height: 450px;
+}
+
+.khm-introduce{
+    margin-top: 0px;
+    line-height: 15px;
+}
+
+.khm-price{
+    color: red;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.F4u{
+    width: 100%;
+    height: 450px;
+}
+
+.f4u-introduce{
+    margin-top: 0px;
+    line-height: 15px;
+}
+
+.f4u-price{
+    color: red;
+    font-weight: bold;
+    line-height: 0px;
+}
+
+.Tiger-I{
+    width: 100%;
+    height: 450px;
+}
+
+.T_I-introduce{
+    margin-top: 0px;
+    line-height: 15px;
+}
+
+.T_I-price{
+    color: red;
+    font-weight: bold;
+    line-height: 0px;
+}
